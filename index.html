@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel</title>
+  <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>  
+  <section aria-label="carousel" id="carousel" class="carousel">
+    <div class="carousel__div" id="carousel__div" data-carousel>
+
+      <button class="carousel__button-left carousel__button" data-carousel-button ="prev">
+        <i class="fas fa-regular fa-arrow-right fa-rotate-180" ></i>      
+      </button>
+      <button class="carousel__button-right carousel__button " data-carousel-button ="next">
+        <i class="fas fa-regular fa-arrow-right" ></i>
+      </button>
+
+      <ul class="carousel__ul" data-slides>
+
+        <li class="carousel__items">
+          <img src="https://images.unsplash.com/photo-1685829614659-001eb744c044?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1526&q=80" alt="img" >
+        </li>
+        <li class="carousel__items">
+          <img src="https://images.unsplash.com/photo-1694468695885-561d145bb57d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="img" >
+        </li>
+        <li class="carousel__items">
+          <img src="https://images.unsplash.com/photo-1657221967402-afea9eb5cf6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="img" >
+        </li>
+        <li class="carousel__items">
+          <img src="https://images.unsplash.com/photo-1694428275090-c8668a271519?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="img" >
+        </li>
+        <li class="carousel__items"  data-active>
+          <img src="https://images.unsplash.com/photo-1677494042299-b62dfce7c664?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="img" >
+        </li>
+        <li class="carousel__items">
+          <img src="https://images.unsplash.com/photo-1693788452415-705a7f6d1d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="img" >
+        </li>
+
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
